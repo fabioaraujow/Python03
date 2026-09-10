@@ -36,7 +36,6 @@ if __name__ == "__main__":
         print(f"Item {current} represents "
               f"{(inventory[current]/sum_quantity) * 100:.1f}%")
     print(f"Item most abundant: {b_name} with quantity {bigger}")
-
     least = bigger
     l_name = b_name
     for current in inventory:

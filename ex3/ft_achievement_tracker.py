@@ -9,7 +9,8 @@ def gen_player_achievements(achiv: list[str]) -> set[str]:
 
 
 if __name__ == "__main__":
-    print("=== Game Achievement Tracker ===\n")
+    print("=== Achievement Tracker System ===")
+    print()
     achievements = ["Craft Genius", "Strategist",
                     "World Savior", "Speed Runner",
                     "Survivor", "Master Explorer",
